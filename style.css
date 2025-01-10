@@ -2,3 +2,97 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: "Fira Sans", serif;
+    background-color: #F1F1F3;
+    margin: 24px 160px;
+}
+
+/* shared styles */
+
+.primary-btn {
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-btn:hover {
+    color: #006A50;
+    background-color: #F1F1F3;
+    border: 1px solid #006A50;
+}
+
+
+.title-logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.signin-btn {
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    border: 1px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.signin-btn:hover {
+    color: white;
+    background-color: #006A50;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 64px;
+    margin-top: 40px;
+}
+
+.banner-text {
+    text-align: left;
+}
+
+.banner-text p {
+    color: #0E0E0E50;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.banner-text h2 {
+    color: #0E0E0E;
+    font-weight: 700;
+    font-size: 56px;
+    margin-top: 20px;
+}
+
+.explore-btn {
+    margin-top: 20px;
+    padding: 17px 34px;
+}
+
+.banner-img {
+    width: 475px;
+    height: 400px;
+}
+
+
+
