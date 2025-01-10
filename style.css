@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -9,7 +10,29 @@ body {
     margin: 24px 160px;
 }
 
-/* shared styles */
+section {
+    margin: 40px 0;
+}
+
+h3 {
+    font-size: 40px;
+    color: #0E0E0E;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0E0E0E80;
+}
+
+p {
+    font-size: 16px;
+    color: #0E0E0E70;
+}
+
+/* Shared Styles */
 
 .primary-btn {
     background-color: #006A50;
@@ -28,7 +51,7 @@ body {
     border: 1px solid #006A50;
 }
 
-
+/* Header Section */
 .title-logo {
     font-size: 32px;
     font-weight: bold;
@@ -56,6 +79,7 @@ header {
     background-color: #006A50;
 }
 
+/* Banner Section */
 .banner-container {
     display: flex;
     justify-content: space-between;
@@ -92,6 +116,64 @@ header {
 .banner-img {
     width: 475px;
     height: 400px;
+}
+
+/* Vision Card Section */
+.vision-cards {
+    margin: 32px 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    align-items: center;
+}
+
+.vision-card {
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card img {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 24px;
+}
+
+.vision-card h4 {
+    margin-bottom: 24px;
+}
+
+.vision-card button {
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+}
+
+.card-1 {
+    background-color: #5490F520;
+}
+
+.card-2 {
+    background-color: #C6E4D6;
+}
+
+.card-3 {
+    background-color: #F7EBCF;
+}
+
+.card-1 button {
+    background-color: #5490F5;
+}
+
+.card-2 button {
+    background-color: #09A15C;
+}
+
+.card-3 button {
+    background-color: #FFC239;
 }
 
 
