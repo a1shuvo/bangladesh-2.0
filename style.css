@@ -176,10 +176,26 @@ header {
     background-color: #FFC239;
 }
 
+/* Quote Section */
+
+.quote {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 24px 24px;
+}
+
+.quote-text {
+    margin-bottom: 12px;
+}
+
+.quote h4 {
+    margin-bottom: 6px;
+}
 
 /* Recent News Section */
-
-
 
 .news-card-1 {
     display: flex;
